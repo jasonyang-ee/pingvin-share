@@ -213,6 +213,8 @@ s3:
   key: ""
   #The secret which allows you to access the S3 bucket.
   secret: ""
+  #Whether to use path-style URLs instead of virtual-hosted style.
+  forcePathStyle: "false"
   #Turn off for backends that do not support checksum (e.g. B2).
   useChecksum: "true"
 legal:

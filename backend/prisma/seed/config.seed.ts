@@ -372,6 +372,10 @@ export const configVariables = {
       type: "boolean",
       defaultValue: "true",
     },
+    forcePathStyle: {
+      type: "boolean",
+      defaultValue: "false",
+    },
   },
   legal: {
     enabled: {

@@ -678,7 +678,9 @@ export default {
     "The secret which allows you to access the S3 bucket.",
   "admin.config.s3.use-checksum": "Use checksum",
   "admin.config.s3.use-checksum.description":
-    "Turn off for backends that do not support checksum (e.g. B2).",
+    "Turn off for backends that do not support checksum (e.g. B2)",
+  "admin.config.s3.force-path-style": "Force path style",
+  "admin.config.s3.force-path-style.description": "Whether to use path-style URLs instead of virtual-hosted style.",
 
   "admin.config.category.legal": "Legal",
   "admin.config.legal.enabled": "Enable legal notices",
